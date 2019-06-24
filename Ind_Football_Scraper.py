@@ -14,7 +14,9 @@ print("Scraping Started.")
 
 while True:
 
+	# Povide the URL here.
 	url="https://www.transfermarkt.co.in/spieler-statistik/wertvollstespieler/marktwertetop/plus/ajax/yw1/ausrichtung/alle/spielerposition_id/alle/altersklasse/alle/jahrgang/0/land_id/67/yt0/Show/0//page/"+str(page_num)
+	
 	headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 	res=rq.get(url, headers=headers)
 

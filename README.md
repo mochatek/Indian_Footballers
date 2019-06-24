@@ -15,8 +15,6 @@ to create similar datasets of other countries from www.transfermarkt.co.in.
 NAME | POSITION | AGE | CLUB | VALUE (in Rupees)
 ------------ | ------------- | ------------ | ------------- | ------------
 
-  - Number of Records : 500
-
 
 ## Use :
   * This dataset can be used for data analysis and for obtaining some statistical informations on Indian Fotballers.
